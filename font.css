@@ -1,0 +1,22 @@
+@font-face{
+	font-family : "hack";
+	src : 	url("https://github.com/HyeRyoung-Rachel-Kim/../webpractice0510/blob/main/fonts/Hack-Regular.eot");
+	src :	url("https://github.com/HyeRyoung-Rachel-Kim/../webpractice0510/blob/main/fonts/Hack-Regular.eot?#iefix") format("embedded-opentype"),
+ 		url("https://github.com/HyeRyoung-Rachel-Kim/../webpractice0510/blob/main/fonts/Hack-Regular.woff") format("woff"),
+ 		url("https://github.com/HyeRyoung-Rachel-Kim/../webpractice0510/blob/main/fonts/Hack-Regular.ttf") format("truetype"),
+		url("https://github.com/HyeRyoung-Rachel-Kim/../webpractice0510/blob/main/fonts/Hack-Regular.svg") format("svg");
+	font-style: normal;
+	font-weight : normal;
+	}
+
+
+@font-face{
+	font-family : "neutro";
+	src : 	url("https://github.com/HyeRyoung-Rachel-Kim/../webpractice0510/blob/main/fonts/Neutro-ExtraBold.eot");
+	src :	url("https://github.com/HyeRyoung-Rachel-Kim/../webpractice0510/blob/main/fonts/Neutro-ExtraBold.eot?#iefix") format("embedded-opentype"),
+		url("https://github.com/HyeRyoung-Rachel-Kim/../webpractice0510/blob/main/fonts/Neutro-ExtraBold.woff") format("woff"),
+		url("https://github.com/HyeRyoung-Rachel-Kim/../webpractice0510/blob/main/fonts/Neutro-ExtraBold.ttf.ttf") format("truetype"),
+		url("https://github.com/HyeRyoung-Rachel-Kim/../webpractice0510/blob/main/fonts/Neutro-ExtraBold.svg") format("svg");
+	font-style: normal;
+	font-weight : normal;
+	}
