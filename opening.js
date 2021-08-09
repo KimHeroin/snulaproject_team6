@@ -7,7 +7,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  var canvas = createCanvas(windowWidth, windowHeight);
+  canvas.position(0, 0);
   frameRate(30);
 
   textsize = windowWidth/7;
@@ -23,7 +24,7 @@ function setup() {
 
 function draw() {
 
-  background(255);
+  clear();
   let gap = (windowWidth*0.6)/letters.length + windowWidth*0.02;
   textAlign(CENTER);
 
