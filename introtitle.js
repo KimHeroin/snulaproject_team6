@@ -13,14 +13,6 @@ function setup() {
 }
 
 function draw() {
-
   clear();
-  let gap = (windowWidth*0.6)/letters.length + windowWidth*0.02;
-  let trans = map(frameCount, 0, 45, 0, windowHeight*0.35);
-  textAlign(CENTER);
-
-  for (let i=0; i<letters.length; i++){
-      let x = windowWidth*0.2 + gap*i;
-      text(char(letters[i]), x, windowHeight/2-textsize/2-trans);
-    }
+  text(letters, (windowWidth-letters.length)/2, windowHeight/2);
   }
