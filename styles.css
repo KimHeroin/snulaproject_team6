@@ -15,12 +15,11 @@
   color: #0000FF;
   text-decoration: none;
   animation: blink ease-in-out;
-  animation-duration: 1s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 .entry a:hover{
   text-decoration: underline;
-  animation: blink paused;
 }
 
 .blinking_menu{
