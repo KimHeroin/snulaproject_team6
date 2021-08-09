@@ -1,0 +1,30 @@
+.entry{
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  animation-delay: 2s;
+  animation: fadein 1s;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5em;
+}
+.entry: a:link, .entry: a:visited{
+  color: #0000FF;
+  text-decoration: none;
+}
+.entry: a:hover{
+  text-decoration: underline;
+}
+@keyframes fadein{
+  from{ opacity: 0;}
+  to{ opacity: 1;}
+}
+
+/*
+font-family: 'Bangers', cursive;
+font-family: 'Barlow', sans-serif;
+font-family: 'Chewy', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Roboto Mono', monospace;
+*/
