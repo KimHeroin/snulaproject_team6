@@ -23,5 +23,4 @@ function draw() {
       let x = windowWidth*0.2 + gap*i;
       text(char(letters[i]), x, windowHeight/2-textsize/2-trans);
     }
-    if(frameCount==)
   }
