@@ -23,7 +23,16 @@
 .entry a:hover{
   text-decoration: underline;
 }
-
+.introtitle{
+  width: 100%;
+  height:100%;
+  vertical-align: middle;
+  font-family: AKIRA;
+  color: #000;
+  font-size: 2em;
+  transform: traslateY(3%);
+  transition-duration: 1.5s;
+}
 @keyframes fadein{
   from{ opacity: 0;}
   to{ opacity: 1;}
@@ -31,6 +40,9 @@
 @keyframes blink{
   from{ opacity: 0;}
   to{ opacity: 1;}
+}
+@font-face{
+  font-family: AKIRA; src: url("AKIRA EXPANDED DEMO.OTF");
 }
 /*
 font-family: 'Bangers', cursive;
