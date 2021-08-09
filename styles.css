@@ -5,9 +5,8 @@
   text-align: center;
   position: absolute;
   z-index: 1;
-  animation: fadein;
-  animation-duration: 3s;
-  animation-delay: 2s;
+  animation: fadein ease-in;
+  animation-duration: 5s;
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
   font-size: 1.5em;
