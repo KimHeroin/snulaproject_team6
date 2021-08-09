@@ -22,15 +22,7 @@
 .entry a:hover{
   text-decoration: underline;
 }
-.introtitle{
-  width: 100%;
-  vertical-align: middle;
-  font-family: AKIRA;
-  color: #000;
-  font-size: 2em;
-  transform: traslateY(3%);
-  transition-duration: 1.5s;
-}
+
 @keyframes fadein{
   from{ opacity: 0;}
   to{ opacity: 1;}
