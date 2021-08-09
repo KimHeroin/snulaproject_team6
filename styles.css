@@ -16,7 +16,7 @@
   text-decoration: none;
   animation: blink ease-in-out;
   animation-duration: 3s;
-  animation-delay:2s;
+  animation-delay: 5s;
   animation-iteration-count: infinite;
 }
 .entry a:hover{
