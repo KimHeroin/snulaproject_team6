@@ -7,7 +7,9 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  var canvas = createCanvas(windowWidth, windowHeight);
+  canvas.parent("opening");
+  canvas.style("display", "block");
   frameRate(30);
 
   if(windowWidth<300){
