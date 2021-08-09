@@ -45,7 +45,7 @@ function draw() {
 
   if(frameCount>=60){
     fill(0, 0, 255, map(frameCount, 60, 90, 0, 255));
-    ellipse(windowWidth/2, windowHeight*0.5+textsize/2, 20+2*sin(frameCount/6), 20+2*sin(frameCount/6));
+    ellipse(windowWidth/2, windowHeight*0.55, 20+2*sin(frameCount/6), 20+2*sin(frameCount/6));
 
     const rand = random(0, windowWidth*5);
     strokeWeight(0.5);
