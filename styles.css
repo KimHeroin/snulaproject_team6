@@ -6,7 +6,7 @@
   position: absolute;
   z-index: 1;
   animation: fadein ease-in;
-  animation-duration: 5s;
+  animation-duration: 8s;
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
   font-size: 1.5em;
@@ -16,7 +16,7 @@
   text-decoration: none;
   animation: blink ease-in-out;
   animation-duration: 3s;
-  animation-delay: 5s;
+  animation-delay: 8s;
   animation-iteration-count: infinite;
 }
 .entry a:hover{
