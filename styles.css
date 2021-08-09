@@ -5,7 +5,7 @@
   position: absolute;
   z-index: 1;
   animation: fadein;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-delay: 2s;
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
@@ -16,18 +16,13 @@
   text-decoration: none;
   animation: blink ease-in-out;
   animation-duration: 3s;
+  animation-delay:2s;
   animation-iteration-count: infinite;
 }
 .entry a:hover{
   text-decoration: underline;
 }
 
-.blinking_menu{
-  animation: blink ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 1.5s;
-
-}
 @keyframes fadein{
   from{ opacity: 0;}
   to{ opacity: 1;}

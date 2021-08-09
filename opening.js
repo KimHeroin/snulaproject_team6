@@ -15,11 +15,6 @@ function setup() {
   textFont(font);
   textSize(textsize);
   textAlign(CENTER, CENTER);
-//  if(frameCount>=60){
-//    let a = createA('intro.html', 'START')
-//    a.style('font-size', '2em');
-//    a.position(windowWidth/2-a.width/2, windowHeight*0.6);
-//  }
 }
 
 function draw() {
