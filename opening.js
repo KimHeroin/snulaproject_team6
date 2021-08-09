@@ -41,7 +41,6 @@ function draw() {
         noStroke();
       } else{
         fill(255);
-        stroke(0, colortransition);
       }
 
       text(char(countup), x, windowHeight/2-textsize/2);
@@ -55,9 +54,9 @@ function draw() {
     fill(0, 0, 255, map(frameCount, 60, 90, 0, 255));
     ellipse(windowWidth/2, windowHeight*0.5+textsize/2, 20+2*sin(frameCount/6), 20+2*sin(frameCount/6));
 
-    let a = createA('game.html', 'Click to Enter the Game.')
-    a.style('font-size', '1em');
-    a.position(windowWidth/2-a.width/2, windowHeight*0.6);
+  //  let a = createA('game.html', 'Click to Enter the Game.')
+//    a.style('font-size', '1em');
+//    a.position(windowWidth/2-a.width/2, windowHeight*0.6);
 
     const rand = random(0, windowWidth*5);
     strokeWeight(0.5);
