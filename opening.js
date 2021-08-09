@@ -64,3 +64,7 @@ function draw() {
     line(0, rand, windowWidth, rand);
   }
 }
+
+function windowResized(){
+  resizeCanvas(windowWidth, windowHeight);
+}
