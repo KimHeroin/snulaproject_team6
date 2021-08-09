@@ -9,11 +9,11 @@
   font-family: 'Roboto Mono', monospace;
   font-size: 1.5em;
 }
-.entry: a:link, .entry: a:visited{
+.entry a:link, .entry a:visited{
   color: #0000FF;
   text-decoration: none;
 }
-.entry: a:hover{
+.entry a:hover{
   text-decoration: underline;
 }
 @keyframes fadein{
