@@ -10,13 +10,9 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   frameRate(30);
 
-  if(windowWidth<300){
-    textsize = windowWidth/12;
-  } else if (windowWidth>=300 || windowWidth<1200){
+
     textsize = windowWidth/7;
-  } else if (windowWidth>=1200){
-    textsize = windowWidth/12;
-  }
+
   textFont(font);
   textSize(textsize);
   textAlign(CENTER, CENTER);
