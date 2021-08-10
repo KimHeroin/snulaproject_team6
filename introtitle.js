@@ -30,7 +30,7 @@ function draw(){
     if(frameCount>=30){t=30;}
     let y = windowHeight*0.38*(cos(t/30*PI-PI)+1)/2;
     fill(255*sin(t/30*PI));
-    text(title[i], x, windowHeight/2-fontsize/2-y);
+    text(title[i], x, windowHeight/2-y);
     }
 }
 
