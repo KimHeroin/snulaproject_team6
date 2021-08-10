@@ -38,6 +38,10 @@
   color: #b7bcbd;
   text-align: center;
 }
+
+.content{
+  display: none;
+}
 ul{
   list-style-type: none;
 }
