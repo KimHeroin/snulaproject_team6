@@ -12,7 +12,8 @@ function setup(){
   canvas.position(0,0);
   frameRate(30);
 
-  bgm = loadSound("audios/Drifting Sands.mp3", loaded);
+  bgm = createAudio("Drifting Sands.mp3");
+  bgm.play();
   bgm.setLoop(true);
   slider = createSlider(0, 1, 0.5, 0.01);
   slider.position(windowWidth*0.05, windowHeight*0.05);
@@ -23,9 +24,6 @@ function setup(){
   textAlign(CENTER, CENTER);
 }
 
-function loaded(){
-  bgm.play();
-}
 function draw(){
   clear();
 
