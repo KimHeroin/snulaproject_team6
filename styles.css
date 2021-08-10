@@ -26,10 +26,11 @@
   transition: 1s;
   text-align: center;
   font-family: AKIRA;
-  font-size: 3.6em;
+  font-size: 6.4em;
   color: #000;
   animation: titleup ease-in-out;
   animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .category_container{
