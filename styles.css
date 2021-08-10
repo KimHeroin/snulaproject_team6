@@ -62,6 +62,12 @@ li {
 button{
   appearance: none;
   transition: 0.5s;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: #b7bcbd;
+  text-align: center;
+  z-index: 1;
 }
 button:hover{
   color: red;
