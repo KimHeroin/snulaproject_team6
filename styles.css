@@ -22,6 +22,15 @@
 .entry a:hover{
   text-decoration: underline;
 }
+.slider1{
+  width: 100px;
+  background-color: transparent;
+  appearance: none;
+}
+.slider1:focus{outline: none;}
+.slider1:-webkit-slider-runnable-track{background: #e8e8e8; height: 3px; -webkit-appearnce: none; cursor: pointer;}
+.slider1:-webkit-slider-thumb{width: 8px; height: 5px; background: #1f1f1f; cursor: pointer; -webkit-appearance: none; }
+
 .category_container{
   width: 80%;
   font-family: 'Roboto Mono', monospace;
