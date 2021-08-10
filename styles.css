@@ -68,9 +68,12 @@ button{
   color: #b7bcbd;
   text-align: center;
   z-index: 1;
+  cursor: pointer;
+  border: 0px;
+  background: transparent;
 }
 button:hover{
-  color: red;
+  color: blue;
 }
 @keyframes fadein{
   from{ opacity: 0;}

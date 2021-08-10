@@ -20,7 +20,7 @@
   <body>
     <iframe src="audios/Drifting Sands.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
     <div id="blank2"></div>
-    
+
     <div class="category_container">
         <button onclick="show_about()">About</button>
         <button onclick="show_team()">Team Members</button>
@@ -29,14 +29,42 @@
         <button onclick="show_faq()">FAQ</button>
     </div>
 
-    <div class="content">
+    <div class="content kor">
       <div id="about" style="display: none">
-      dfdsfg
+      AGENT 는 22세기, 인간형 인공지능을 포함하여 다양한 agent들이 보편화된 사회를 배경으로 하는 게임입니다.
+      인류 삶 속에 깊이 스며든 agent들의 보급 양상과는 달리, 이들이 공존한다고 말할 수 있을까요?
+      <p>
+      이 게임은 인공지능 곰인형의 시점에서 보편적인 한 가정과의 나날을 보냄으로써, 현재 우리들의 인공지능에 대한 인식 실태를 알아보고자
+      하는 목적에 의해 개발되었습니다.
+      <p>
+      이 프로젝트는 서울대학교 라이프아카데미 2기 프로젝트의 일부로 비-상업적 목적으로 개발되었습니다.
+      제작에 포함된 모든 멀티미디어 파일들의 저작권은 개발자들에게 있으며, 사용된 이미지, 오디오 및 각종 멀티미디어들은 royalty free 에 부합합니다.
+      무단 배포 및 복제를 금합니다.
       </div>
     <div id="team" style="display: none">
       hellohellohellohello?
       </div>
       </div>
+      <script>
+        function show_about(){
+          var x = document.getElementById("about");
+          if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+        }
+
+
+        function show_team(){
+          var x = document.getElementById("team");
+          if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+        }
+        </script>
   	<script src="introtitle.js" type="text/javascript"></script>
     <script src="showdiv.js" type="text/javascript"></script>
   </body>
