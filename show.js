@@ -1,5 +1,5 @@
 function show_about(){
-  var x = document.getElementById("about").onclick;
+  var x = document.getElementById("about");
   if (x.style.display === "none") {
   x.style.display = "block";
 } else {
@@ -9,7 +9,7 @@ function show_about(){
 
 
 function show_team(){
-  var x = document.getElementById("team").onclick;
+  var x = document.getElementById("team");
   if (x.style.display === "none") {
   x.style.display = "block";
 } else {
