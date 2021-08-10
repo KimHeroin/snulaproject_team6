@@ -28,9 +28,6 @@
   appearance: none;
   -webkit-appearance: none;
 }
-.slider1:focus{outline: none;}
-.slider1:-webkit-slider-runnable-track{background: #e8e8e8; height: 3px; -webkit-appearnce: none; appearance:none; cursor: pointer;}
-.slider1:-webkit-slider-thumb{width: 8px; height: 5px; background: #1f1f1f; cursor: pointer; -webkit-appearance: none; appearance: none; }
 
 .category_container{
   font-family: 'Roboto Mono', monospace;

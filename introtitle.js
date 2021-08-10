@@ -4,7 +4,6 @@ let bgm;
 function preload(){
   font = loadFont('AKIRA EXPANDED DEMO.OTF');
   fontsize = windowWidth/7;
-  bgm = loadSound("audios/Drifting Sands.mp3", loaded);
 }
 
 
@@ -13,25 +12,13 @@ function setup(){
   canvas.position(0,0);
   frameRate(30);
 
-
-  bgm.loop(true);
-
-  slider = createSlider(0, 1, 0.5, 0.01);
-  slider.position(windowWidth*0.5, windowHeight*0.13);
-  slider.addClass("slider1");
-
   textFont(font);
   textSize(fontsize);
   textAlign(CENTER, CENTER);
 }
-function loaded(){
-    bgm.play();
-}
+
 function draw(){
   clear();
-
-  bgm.setVolume(slider.value());
-
   noStroke();
 
   let gap = (windowWidth*0.6)/title.length + windowWidth*0.02;
