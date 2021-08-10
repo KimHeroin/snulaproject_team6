@@ -22,14 +22,18 @@
 .entry a:hover{
   text-decoration: underline;
 }
-.slider1{
-  width: 100px;
-  background-color: transparent;
-  appearance: none;
-  -webkit-appearance: none;
+.introtitle{
+  transition: 1s;
+  text-align: center;
+  font-family: AKIRA;
+  font-size: 2em;
+  color: #000;
 }
-
+.transY{
+  transform: translateY(-45%);
+}
 .category_container{
+  min-width: 300px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 500;
   font-size: 1.2em;
@@ -47,7 +51,7 @@
 
 .kor{
   font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 0.9em;
 }
 ul{
