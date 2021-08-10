@@ -47,6 +47,9 @@ li {
   padding: 5px;
   display: inline-block;
 }
+button{
+  appearance: none;
+}
 @keyframes fadein{
   from{ opacity: 0;}
   to{ opacity: 1;}
