@@ -9,7 +9,12 @@ function show_about(){
 
 
 function show_team(){
-
+  var x = document.getElementById("team");
+  if (x.style.display === "none") {
+  x.style.display = "block";
+} else {
+  x.style.display = "none";
+}
 }
 
 function show_doc(){

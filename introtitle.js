@@ -4,7 +4,7 @@ let bgm;
 function preload(){
   font = loadFont('AKIRA EXPANDED DEMO.OTF');
   fontsize = windowWidth/7;
-  bgm = loadSound("Drifting Sands.mp3", loaded);
+  bgm = loadSound("audios/Drifting Sands.mp3", loaded);
 }
 
 
