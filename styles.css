@@ -31,6 +31,7 @@
   animation: titleup ease-in-out;
   animation-duration: 1s;
 }
+
 .category_container{
   min-width: 300px;
   font-family: 'Roboto Mono', monospace;
@@ -40,7 +41,6 @@
   text-align: center;
   z-index: 1;
 }
-
 .content{
   font-family: 'Barlow', sans-serif;
   font-weight: 400;
@@ -52,6 +52,15 @@
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   font-size: 0.9em;
+}
+.member_container{
+  padding: 5px 5%;
+}
+.memberID{
+  display: inline-block;
+}
+.memberDt{
+  padding: 5px 5px;
 }
 ul{
   list-style-type: none;
