@@ -32,7 +32,10 @@
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
-
+#about, #team{
+  animation: contentup ease-in-out;
+  animation-duration: 0.5s;
+}
 .category_container{
   min-width: 300px;
   font-family: 'Roboto Mono', monospace;
@@ -47,6 +50,7 @@
   font-weight: 400;
   color: #000;
   font-size: 1em;
+  padding: 10px 0;
 }
 
 .kor{
@@ -90,6 +94,7 @@ button{
   cursor: pointer;
   border: 0px;
   background: transparent;
+  padding: 0 2.5%;
 }
 button:hover{
   color: blue;
@@ -107,8 +112,8 @@ button:hover{
   100%{transform: translateY(-40%);}
 }
 @keyframes contentup{
-  0%{transform: translateY(0);}
-  100%{transform: translateY(-10px);}
+  0%{transform: translateY(0); opacity: 0;}
+  100%{transform: translateY(-10px); opacity: 1;}
 }
 @font-face{
   font-family: AKIRA; src: url("AKIRA EXPANDED DEMO.OTF");
