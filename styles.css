@@ -53,6 +53,10 @@ li {
 }
 button{
   appearance: none;
+  transition: 0.5s;
+}
+button:hover{
+  color: red;
 }
 @keyframes fadein{
   from{ opacity: 0;}
