@@ -28,9 +28,8 @@
   font-family: AKIRA;
   font-size: 2em;
   color: #000;
-}
-.transY{
-  transform: translateY(-45%);
+  animation: titleup ease-in-out;
+  animation-duration: 1s;
 }
 .category_container{
   min-width: 300px;
@@ -86,6 +85,10 @@ button:hover{
 @keyframes blink{
   from{ opacity: 0;}
   to{ opacity: 1;}
+}
+@keyframes titleup{
+  0%{transform: translateY(0);}
+  100%{transform: translateY(-40%);}
 }
 @font-face{
   font-family: AKIRA; src: url("AKIRA EXPANDED DEMO.OTF");
