@@ -12,7 +12,7 @@ function setup(){
   canvas.position(0,0);
   frameRate(30);
 
-  bgm = createAudio("audios/Drifting Sands.mp3")
+  bgm = createAudio("audios/Drifting Sands.mp3");
   bgm.autoplay(true);
 
   textFont(font);
@@ -32,7 +32,7 @@ function draw(){
     let x = windowWidth*0.2+gap*i;
     let t = frameCount;
     if(frameCount>=30){t=30;}
-    let y = windowHeight*0.38*(cos(t/30*PI-PI)+1)/2;
+    let y = windowHeight*0.45*(cos(t/30*PI-PI)+1)/2;
     fill(255*sin(t/30*PI));
     text(title[i], x, windowHeight/2-y);
     }
