@@ -32,10 +32,9 @@
 .slider1:-webkit-slider-thumb{width: 8px; height: 5px; background: #1f1f1f; cursor: pointer; -webkit-appearance: none; }
 
 .category_container{
-  width: 80%;
   font-family: 'Roboto Mono', monospace;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #b7bcbd;
   text-align: center;
 }
