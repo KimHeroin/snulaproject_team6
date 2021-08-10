@@ -56,9 +56,15 @@
 }
 .member_container{
   padding: 5px 5%;
+  display: inline-block;
+  vertical-align: middle;
 }
 .memberID{
-  display: inline-block;
+  padding: 20px 0;
+}
+.profilepic{
+  width: 150px;
+  height: 150px;
 }
 .memberDt{
   padding: 5px 5px;
@@ -99,6 +105,10 @@ button:hover{
 @keyframes titleup{
   0%{transform: translateY(0);}
   100%{transform: translateY(-40%);}
+}
+@keyframes contentup{
+  0%{transform: translateY(0);}
+  100%{transform: translateY(-10px);}
 }
 @font-face{
   font-family: AKIRA; src: url("AKIRA EXPANDED DEMO.OTF");
