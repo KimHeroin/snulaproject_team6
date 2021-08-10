@@ -14,6 +14,7 @@ function setup(){
 
   bgm = createAudio("audios/Drifting Sands.mp3");
   bgm.autoplay(true);
+  bgm.colume(0.5);
 
   textFont(font);
   textSize(fontsize);
