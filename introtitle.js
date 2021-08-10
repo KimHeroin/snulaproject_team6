@@ -1,4 +1,5 @@
 const title = 'AGENT';
+let bgm;
 
 function preload(){
   font = loadFont('AKIRA EXPANDED DEMO.OTF');
@@ -10,6 +11,9 @@ function setup(){
   var canvas= createCanvas(windowWidth, windowHeight);
   canvas.position(0,0);
   frameRate(30);
+
+  bgm = createAudio("audios/Drifting Sands.mp3")
+  bgm.autoplay(true);
 
   textFont(font);
   textSize(fontsize);
