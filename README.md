@@ -1,1 +1,1 @@
-# snulaproject_team6
+Hello, Git!
