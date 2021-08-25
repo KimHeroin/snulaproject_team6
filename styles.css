@@ -37,8 +37,10 @@
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
 
-  padding:
+  padding: 50px;
 }
+
+
 #team{
   animation: contentup ease-in-out;
   animation-duration: 0.5s;
