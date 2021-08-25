@@ -29,7 +29,8 @@
         <button id = "4" onclick="show_cat(this.id)">FAQ</button>
     </div>
 
-    <container class="content kor">
+			<!-- ////////////ABOUT/////////// -->
+    <div class="content kor">
       <div class="category flex-container" style="display: none" alt= "about">
         <article>
       	Welcome to AGENT. AGENT AGENT 는 22세기, 인간형 인공지능을 포함하여 다양한 agent들이 보편화된 사회를 배경으로 하는 게임입니다.
@@ -43,7 +44,8 @@
       무단 배포 및 복제를 금합니다.
     </article>
       </div>
-
+		</div>
+			<!-- ////////////MEMBER//////////// -->
     <div class="category flex-container" style="display: none" alt= "member">
       <div class="member_container">
       <div class="memberID"><img src="images/member_hyeryoung.png" class="profilepic"></div>
@@ -83,14 +85,19 @@
         document
       </article>
       </div>
+
+			<!-- ////////////TUTORIAL/////////// -->
     <div class="category flex-container" style="display: none" alt = "tutorial">
 			<div class="tut_container">
-			<div class="content kor">Considering different device specifications, we prepared different versions of this game.
+			<div class="content">
+				Considering different device specifications, we prepared different versions of this game.
 				<p>Original concept is based on 3d interaction, also it uses URP(Universal Render Pipeline) from unity,
 				which can cause frame/graphic errors to some devices.
 				<p>So, we prepared a web-built javascript game for universal visitors. It can also be used as a quick preview of the gameplay.
 				<p>To play <b>3d demo version</b>, <a>click here to download the game.</a>
 				<p><i>*This 3d version will be updated steadily until the page is shut down.</i>
+			</div>
+			<div class="kor">
 				<p> 여러가지 게임 플레이 환경을 고려하여, 우리 팀은 여러가지 게임 버전을 준비했습니다.
 				<p> 최초 게임 구상은 3d 맵 상에서의 인터랙션을 기반으로 하며, UNITY의 URP 개발환경을 이용하였습니다.
 						이로 인해 저사양 환경은 프레임이나 그래픽 에러가 발생할 수 있습니다.
@@ -99,6 +106,7 @@
 				<p><i>*이 게임은 페이지 배포가 종료될때까지 상시 업데이트 됩니다.</i>
 			 </div>
 		 </div>
+
       <div class="container col-lg-8 col-md-12 col-sm-12">
         <div id = "landing">
           <button id="play_button" onclick="js:play()">플레이</button>
@@ -133,6 +141,8 @@
 
 
       </div>
+
+		<!-- ////////////FAQ//////////// -->
     <div class="category" style="display: none" alt = "FAQ">
       <article>
         Before any questions, you can first pull requests on github.
