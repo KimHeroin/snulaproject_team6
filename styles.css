@@ -1,3 +1,7 @@
+body {
+  display: block;
+}
+
 .entry{
   color: #FFF;
   width: 100%;
@@ -126,3 +130,57 @@ font-family: 'Chewy', cursive;
 font-family: 'Noto Sans KR', sans-serif;
 font-family: 'Roboto Mono', monospace;
 */
+
+@media (min-width: 375px) {
+  .container {
+    width: 350px;
+  }
+  article {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+    article {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+  }
+  
+@media (min-width: 992px) {
+    .container {
+      width: 940px;
+    }
+    article {
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+  }
+  
+  /*사실 이 블럭은 없어도 된다*/
+@media (min-width: 1200px) {
+    .container {
+      width: 940px;
+    }
+    
+  }
+
+  .flex-container{ 
+    width: 100%; 
+    height: 100vh; 
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox; 
+    display: flex; 
+
+    -webkit-box-pack: center;
+    -moz-box-pack: center; 
+    -ms-flex-pack: center; 
+    justify-content: center; /* 수평 정렬 */
+}
+
