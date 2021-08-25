@@ -1,13 +1,11 @@
-// 방: 지민의 방, 거실, 마당(수영장), 수영장 속(물 속에 빠짐), 부모님의 방, 부모님의 방(금고 보임)
+// 방: Jimin_Room, 거실, 마당(수영장), 수영장 속(물 속에 빠짐), 부모님의 방, 부모님의 방(금고 보임)
 const scr_List = [
-    //default
+    //Agent
     {
-        scene: 0,
-        number: 0,
-        s_Loc: "지민의 방",
-        s_Name: "지민",
-        s_Script: "테디!! 테디!! 나 너무 신나! 오늘 우리 마당에 있는 수영장에서 논대!!",
-        s_button: "다음",
+        s_Loc: "Yard",
+        s_Name: "Agent",
+        s_Script: "배경 설명",
+        s_button: "시작하기",
         is_Select: 0
     },
 
@@ -15,18 +13,22 @@ const scr_List = [
     [
         //scene 0
         [
-            //number0
             {
-                s_Loc: "지민의 방",
-                s_Name: "지민",
+            //info
+                day: 4,
+                scene: 0,
+                s_Loc: "Jimin_Room"
+            },
+            //number1
+            {
+                s_Name: "Jimin",
                 s_Script: "테디!! 테디!! 나 너무 신나! 오늘 우리 마당에 있는 수영장에서 논대!!",
                 s_button: "다음",
                 is_Select: 0
             },
-            //number1
+            //number2
             {
-                s_Loc: "지민의 방",
-                s_Name: "지민",
+                s_Name: "Jimin",
                 s_Script: [
                     "내가 알기로는 수영장에서 놀기 위해서는,,, 수영복! 수경!! 음,, 그리고 선크림! 이런 것들이 필요하다던데!",
                     " 테디도 나 선크림 찾는 것좀 도와줘!"],
@@ -36,82 +38,87 @@ const scr_List = [
         ],
         //scene 1
         [
-            //number 0
             {
-                s_Loc: "거실",
-                s_Name: "",
-                s_Script: "지민이가 선크림 어디있냐고 물어보는데요! 수영해야해서 필요하대요!",
-                s_button: "다음",
-                is_Select: 0
+                //info
+                day: 4,
+                scene: 1,
+                s_Loc: "Dining_Room"
             },
             //number 1
             {
-                s_Loc: "거실",
-                s_Name: "엄마",
-                s_Script: "지민이는 선크림이 필요없을텐데.. 안발라도 된다고 전해주겠니?",
+                s_Name: "Agent",
+                s_Script: "지민이가 선크림 어디있냐고 물어보는데요! 수영해야해서 필요하대요!",
                 s_button: "다음",
                 is_Select: 0
             },
             //number 2
             {
-                s_Loc: "거실",
-                s_Name: "엄마",
-                s_Script: "그리고 지민이는 물에 들어가면 안된단다..",
+                s_Name: "Mother",
+                s_Script: "지민이는 선크림이 필요없을텐데.. 안발라도 된다고 전해주겠니?",
                 s_button: "다음",
                 is_Select: 0
             },
             //number 3
             {
-                s_Loc: "거실",
-                s_Name: "",
-                s_Script: "네??왜요?? 그리고 선크림은 왜요???이 피부는 연약해서 꼭 필요한 거 아닌가요?!",
+                s_Name: "Mother",
+                s_Script: "그리고 지민이는 물에 들어가면 안된단다..",
                 s_button: "다음",
                 is_Select: 0
             },
             //number 4
             {
-                s_Loc: "거실",
-                s_Name: "엄마",
-                s_Script: "음 그렇지… 그래도.. 방.. 되니까 상관 없겠지.. 너무 많이 바르지 말라고 전해주렴!",
+                s_Name: "Agent",
+                s_Script: "네??왜요?? 그리고 선크림은 왜요???이 피부는 연약해서 꼭 필요한 거 아닌가요?!",
                 s_button: "다음",
                 is_Select: 0
             },
             //number 5
             {
-                s_Loc: "거실",
-                s_Name: "",
+                s_Name: "Mother",
+                s_Script: "음 그렇지… 그래도.. 방.. 되니까 상관 없겠지.. 너무 많이 바르지 말라고 전해주렴!",
+                s_button: "다음",
+                is_Select: 0
+            },
+            //number 6
+            {
+                s_Name: "Agent",
                 s_Script: "선크림을 얻었다!",
-                s_button: "지민의 방으로 가기",
+                s_button: "Jimin_Room으로 가기",
                 is_Select: 0
             }
         ],
         //scene 2
         [
-            //number 0
             {
-                s_Loc: "지민의 방",
-                s_Name: "지민",
+                //info
+                day: 4,
+                scene: 2,
+                s_Loc: "Jimin_Room"
+            },
+            //number 1
+            {
+                s_Name: "Jimin",
                 s_Script: "어 테디 왔어? 선크림 가져왔구나!! 고마워!!",
                 s_button: "다음",
                 is_Select: 0
             },
+            //number 2
             {
-                s_Loc: "지민의 방",
-                s_Name: "",
+                s_Name: "Agent",
                 s_Script: "지금까지 선크림을 한번도 안발라본거야?",
                 s_button: "다음",
                 is_Select: 0
             },
+            //number 3
             {
-                s_Loc: "지민의 방",
-                s_Name: "지민",
+                s_Name: "Jimin",
                 s_Script: "응 엄마가 안발라도 된다고 하셨는데, 실외에서 수영할 떈 필수라고 해서!!",
                 s_button: "다음",
                 is_Select: 0
             },
+            //number 4
             {
-                s_Loc: "지민의 방",
-                s_Name: "지민",
+                s_Name: "Jimin",
                 s_Script: "어쨌든! 첫 수영이니까 신난다! 난 준비하러 갈게!",
                 s_button: "다음",
                 is_Select: 0
@@ -120,59 +127,103 @@ const scr_List = [
         //scene 3
         [
             {
-            s_Loc: "지민의 방",
-            s_Name: "지민",
-            s_Script: "아버지가 방문을 세개 닫고 나간다.",
-            s_button: "다음",
-            is_Select: 0
+                //info
+                day: 4,
+                scene: 3,
+                s_Loc: "Jimin_Room"
+
             },
             {
-                s_Loc: "지민의 방",
-                s_Name: "",
+                s_Name: "Agent",
+                s_Script: "아버지가 방문을 세개 닫고 나간다.",
+                s_button: "다음",
+                is_Select: 0
+            },
+            {
+                s_Name: "Agent",
                 s_Script: "",
                 s_button: "다음",
                 is_Select: 1
             },
             {
-                s_Loc: "지민의 방",
-                s_Name: "지민",
+                s_Name: "Jimin",
                 s_Script: "",
                 s_button: "다음",
                 is_Select: 0
             },
             {
-                s_Loc: "지민의 방",
-                s_Name: "지민",
+                s_Name: "Jimin",
                 s_Script: "오늘도 정신 없는 하루였네.. 유난히 피곤한 것 같아.. 먼저 잘게 테디..",
                 s_button: "다음",
                 is_Select: 0
             },
             {
-                s_Loc: "지민의 방",
-                s_Name: "",
+                s_Name: "Agent",
                 s_Script: "잘자",
                 s_button: "다음",
                 is_Select: 0
             },
             {
-                s_Loc: "지민의 방",
-                s_Name: "",
+                s_Name: "Agent",
                 s_Script: ["그때 지민이한테서 들린 소리는 내 머릿속에서 울린 소리랑 같았어..!",
                 "정말 지민의 부모님은 뭔가 알고 있지 않을까?"],
                 s_button: "부모님 방으로 가기",
                 is_Select: 0
-            },
+            }
 
         ],
+        //scene 4
         [
             {
-                s_Loc: "부모님 방",
-                s_Name: "",
+                //info
+                day: 4,
+                scene: 4,
+                s_Loc: "Parents_Room"
+            },
+            {
+                s_Name: "Agent",
                 s_Script: "금고.. 금고를 찾아봐야겠다..! 비밀번호가 뭘까",
                 s_button: "다음",
                 is_Select: 0
             },
-        ]
+            {
+                s_Name: "Agent",
+                s_Script: "금고 안에는 서류 하나가 있었고 그 안에는 흰 종이 하나가 있었다",
+                s_button: "종이 읽어보기",
+                is_Select: 0
+            },
+        ],
+        //scene 5
+        [
+            {
+                //info
+                day: 4,
+                scene: 5,
+                s_Loc: "Contract"
+            },
+            {
+                s_Name: "Agent",
+                s_Script: "계약서..?",
+                s_button: "다음",
+                is_Select: 0
+            },
+        ],
+         //scene 6
+         [
+            {
+                //info
+                day: 4,
+                scene: 6,
+                s_Loc: "day_4"
+            },
+            {
+                s_Name: "Agent",
+                s_Script: "지민이의 일기",
+                s_button: "다음",
+                is_Select: 0
+            },
+        ],
+        
 
     ]
 ]
