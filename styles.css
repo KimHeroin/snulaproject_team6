@@ -223,3 +223,17 @@ font-family: 'Chewy', cursive;
 font-family: 'Noto Sans KR', sans-serif;
 font-family: 'Roboto Mono', monospace;
 */
+
+.slideshow-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media(min-width:720px) {
+  .mySlides {
+    width: 60%;
+    height: auto;
+  }
+
+}
