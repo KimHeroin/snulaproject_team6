@@ -1,6 +1,6 @@
 .container{
     background-color: pink;
-    height: 100%;
+    height: 80%;
     padding-bottom: 10px;    
 }
 
@@ -21,7 +21,7 @@
 
 #game_bg{
     width: 100%; 
-    height: 80%;
+    height: 70%;
     opacity: 30%;
     background-color: aqua;
 }
@@ -34,7 +34,7 @@
     display: none;
 
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: yellow;
@@ -43,29 +43,29 @@
 #interaction{
     display: flex;
     width: 100%;
-    height: 20%;
+    height: 30%;
     
 }
 
 #char{
-    width: 20%;
+    width: 30%;
     background-color: red;
 }
 
 #script{
-    width: 80%;
+    width: 70%;
     background-color: green;
     display: flex;
 }
 
 #name_talk{
-    width: 80%;
+    width: 70%;
     background-color: rgb(0, 119, 128);
     display: block;
 }
 
 #click_next{
-    width: 20%;
+    width: 30%;
     background-color: rgb(4, 12, 53);
     color: white;
     text-align: center;
