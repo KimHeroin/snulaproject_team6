@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="./css/animation.css">
     <link rel="stylesheet" href="./css/game.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
- 
 
 
-    
+
+
   </head>
   <body>
     <iframe src="audios/Drifting Sands.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
@@ -32,7 +32,7 @@
     <container class="content kor">
       <div class="category flex-container" style="display: none" alt= "about">
         <article>
-      AGENT 는 22세기, 인간형 인공지능을 포함하여 다양한 agent들이 보편화된 사회를 배경으로 하는 게임입니다.
+      	Welcome to AGENT. AGENT AGENT 는 22세기, 인간형 인공지능을 포함하여 다양한 agent들이 보편화된 사회를 배경으로 하는 게임입니다.
       인류 삶 속에 깊이 스며든 agent들의 보급 양상과는 달리, 이들이 공존한다고 말할 수 있을까요?
       <p>
       이 게임은 인공지능 곰인형의 시점에서 보편적인 한 가정과의 나날을 보냄으로써, 현재 우리들의 인공지능에 대한 인식 실태를 알아보고자
@@ -47,27 +47,33 @@
     <div class="category flex-container" style="display: none" alt= "member">
       <div class="member_container">
       <div class="memberID"><img src="images/member_hyeryoung.png" class="profilepic"></div>
-      <div class="memberDt kor">HyeRyoung Kim / 김혜령<p> Design Director, Web development, design</div>
+      <div class="memberDt kor"><b>HyeRyoung Kim / 김혜령</b>
+				<p> Design Director, Web development, 3D design
+					<p> 프로젝트 디자인 담당. 홈페이지 구축 및 웹디자인. 3D 맵 제작, 유니티 빌드.
+					</div>
       </div>
 
       <div class="member_container">
       <div class="memberID"><img src="images/member_default.png" class="profilepic"></div>
-      <div class="memberDt kor">Sungmin Cho / 조성민<p> Designer, 3D design</div>
+      <div class="memberDt kor"><b>Sungmin Cho / 조성민</b>
+				<p> Designer, Web development, 3D character design
+				<p> 프로젝트 디자인 담당. 홈페이지 자바스크립트 게임 구현. 3D 캐릭터 제작, 유니티 빌드.
+				</div>
       </div>
 
       <div class="member_container">
       <div class="memberID"><img src="images/member_default.png" class="profilepic"></div>
-      <div class="memberDt kor">Gangmin Seo / 서강민<p> Story Director, Research</div>
+      <div class="memberDt kor"><b>Gangmin Seo / 서강민</b><p> Story Director, Research</div>
       </div>
 
       <div class="member_container">
       <div class="memberID"><img src="images/member_default.png" class="profilepic"></div>
-      <div class="memberDt kor">Seunghoon Yang / 양승훈<p> Story Director, Research</div>
+      <div class="memberDt kor"><b>Seunghoon Yang / 양승훈</b><p> Story Director, Research</div>
       </div>
 
       <div class="member_container">
       <div class="memberID"><img src="images/member_default.png" class="profilepic"></div>
-      <div class="memberDt kor">Seowon Choi / 최서원<p> Story Director, Research</div>
+      <div class="memberDt kor"><b>Seowon Choi / 최서원<b><p> Story Director, Research</div>
       </div>
 
       </div>
@@ -78,11 +84,26 @@
       </article>
       </div>
     <div class="category flex-container" style="display: none" alt = "tutorial">
+			<div class="tut_container">
+			<div class="content kor">Considering different device specifications, we prepared different versions of this game.
+				<p>Original concept is based on 3d interaction, also it uses URP(Universal Render Pipeline) from unity,
+				which can cause frame/graphic errors to some devices.
+				<p>So, we prepared a web-built javascript game for universal visitors. It can also be used as a quick preview of the gameplay.
+				<p>To play <b>3d demo version</b>, <a>click here to download the game.</a>
+				<p><i>*This 3d version will be updated steadily until the page is shut down.</i>
+				<p> 여러가지 게임 플레이 환경을 고려하여, 우리 팀은 여러가지 게임 버전을 준비했습니다.
+				<p> 최초 게임 구상은 3d 맵 상에서의 인터랙션을 기반으로 하며, UNITY의 URP 개발환경을 이용하였습니다.
+						이로 인해 저사양 환경은 프레임이나 그래픽 에러가 발생할 수 있습니다.
+				<p> 그래서, 저희는 모든 접속자들을 위해 웹 기반 자바스크립트 게임을 준비했습니다. 이는 오리지널 게임의 빠른 프리로 쓰일 수 있습니다.
+				<p> 3D 데모 버전 플레이를 위해서 <a>여기</a>를 클릭하시오.
+				<p><i>*이 게임은 페이지 배포가 종료될때까지 상시 업데이트 됩니다.</i>
+			 </div>
+		 </div>
       <div class="container col-lg-8 col-md-12 col-sm-12">
         <div id = "landing">
           <button id="play_button" onclick="js:play()">플레이</button>
            </div>
-  
+
         <div id = "play" alt = "플레이 화면">
           <div id="game_bg" alt = "배경">
             <div id="play_loc"alt = "위치"></div>
@@ -90,7 +111,7 @@
               <span class="absolute">position: absolute<br>top: 50%<br>left: 50%<br>transform: translate(-50%,-50%)</span>
             </div>
           </div>
-    
+
           <div id = "interaction">
             <div id="char" alt = "얼굴"></div>
             <div id="script" alt= "대사">
@@ -105,9 +126,9 @@
           </div>
           <div id = "selection" alt = "선택지 창"></div>
         </div>
-        
-        
-        
+
+
+
       </div>
 
 
@@ -116,7 +137,7 @@
       <article>
         Before any questions, you can first pull requests on github.
       </article>
-      
+
       </div>
       </container>
 
