@@ -90,9 +90,9 @@
   padding: 5% 5%;
 }
 .document_container{
-  width: 25%;
+  width: 100%;
   display: inline-block;
-  padding: 5px 5px;
+  padding: 10px;
 }
 .cardnews{
   width: 75%;
@@ -120,6 +120,22 @@ button{
   background: transparent;
   padding: 0 2.5%;
 }
+
+.cardnews_button {
+  appearance: none;
+  transition: 0.5s;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: #717171;
+  text-align: center;
+  z-index: 1;
+  cursor: pointer;
+  border: 0px;
+  background: transparent;
+  padding: 0 2.5%;
+}
+
 button:hover{
   color: blue;
 }
@@ -144,8 +160,13 @@ button:hover{
 }
 
 * {box-sizing: border-box}
-.mySlides {display: none}
-img {vertical-align: middle;}
+.mySlides {
+  display: none;
+  width: fit-content;
+
+}
+img {vertical-align: middle;
+align-self: center;}
 
 /* Slideshow container */
 .slideshow-container {
@@ -234,6 +255,26 @@ font-family: 'Roboto Mono', monospace;
   .mySlides {
     width: 60%;
     height: auto;
+    text-align: center;
   }
 
+  #cardnewsPage {
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+  }
+
+}
+
+#div_button {
+        width: 100px;
+        height: 35px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 14px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        cursor: pointer;
 }
