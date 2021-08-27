@@ -265,6 +265,10 @@ font-family: 'Roboto Mono', monospace;
     align-items: center;
   }
 
+  .cardnews_folder {
+    width: 70%;
+  }
+
 }
 
 #div_button {
@@ -278,3 +282,4 @@ font-family: 'Roboto Mono', monospace;
         border: 1px solid rgba(0, 0, 0, 0.15);
         cursor: pointer;
 }
+
